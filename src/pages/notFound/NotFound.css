@@ -1,0 +1,33 @@
+#notFound {
+    width: 100%;
+    height: 100vh;
+    background: #242424;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.notFoundContainer {
+    width: 100%;
+    height: 100vh;
+}
+
+.notFoundContainer img {
+    width: 100%;
+    height: 100vh;
+}
+
+.containerText {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translateX(-12rem);
+    font-weight: 600;
+    font-size: 5rem;
+    color: #3d8e04;
+    transition: all .4s;
+}
+
+.containerText:hover {
+   color: #1b8d9c;
+}
