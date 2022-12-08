@@ -24,6 +24,7 @@ const Cadastro = () => {
 
             <h1 className="title"> Cadastre-se </h1>
             <p> {String(authenticated)} </p>
+            
             <form className="form" onSubmit={handleSubmit}>
 
                 <div className="field">
